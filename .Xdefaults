@@ -1,0 +1,52 @@
+!! __  __   _       __             _ _
+!! \ \/ /__| | ___ / _| __ _ _   _| | |_ ___
+!!  \  // _` |/ _ \ |_ / _` | | | | | __/ __|
+!!  /  \ (_| |  __/  _| (_| | |_| | | |_\__ \
+!! /_/\_\__,_|\___|_|  \__,_|\__,_|_|\__|___/
+!!
+
+*.color0 : #1f1f1f
+*.color8 : #d6dbe5
+*.color1 : #f81118
+*.color  : #de352e
+*.color2 : #2dc55e
+*.color10: #1dd361
+*.color3 : #ecba0f
+*.color11: #f3bd09
+*.color4 : #c0c0c0
+*.color12: #1081d6
+*.color5 : #4e5ab7
+*.color13: #5350b9
+*.color6 : #1081d6
+*.color14: #0f7ddb
+*.color7 : #d6dbe5
+*.color15: #ffffff
+
+
+!st.font: DejaVu\ Sans\ Mono:size 15
+!st.font: Ubuntu\ Mono:size=15
+
+
+URxvt.background: [85]#000505
+URxvt.foreground: #F8F8F2
+URxvt.colorBD: #55FFFF
+URxvt.colorIT: #34E2E2
+URxvt.shading: 20
+URxvt.depth: 32
+URxvt.reverseVideo: false
+URxvt.cursorColor: #FF55FF
+URxvt.highlightColor: #ffffff
+URxvt.highlightTextColor: #555555
+
+URxvt.scrollBar: false
+URxvt.letterSpace: 0
+URxvt.locale: true
+URxvt.font: xft:JetBrains\ Mono:size=16:antialias=true:autohint=true
+!URxvt.font: xft:DejaVu\ Sans\ Mono:size=15, xft:Noto\ Color\ Emoji, xft:Font\ Awesome, xft:Noto\ Serif\ Khmer:size=13, xft:Kh\ virak\ mono\ modern:size=20:pixelsize=18!xft:Noto\ Sans\ Khmer\ UI:size=13
+
+!!extension
+URxvt.perl-ext-common : resize-font
+URxvt.resize-font.step: 1
+URxvt.keysym.C-minus  : resize-font:smaller
+URxvt.keysym.C-equal  : resize-font:bigger
+URxvt.keysym.C-0      : resize-font:reset
